@@ -2,11 +2,11 @@
 
 *다른 언어로 보기: [English](README.md).*
 
-[OrientDB](https://github.com/orientechnologies/orientdb)와 같은 [그래프(Graph) 데이터베이스](https://en.wikipedia.org/wiki/Graph_database)는 노드(node), 변(edge) 그리고 속성(property)으로 구성된 그래프 구조 자료를 저장합니다. 디자인적으로 그래프 데이터베이스는 복잡하고 계층적 자료 구조를 관계형 데이터베이스보다 더 효율적인 방식으로 단순하고 빠르게 가져옵니다. [Gremlin](http://tinkerpop.apache.org/gremlin.html)은 그래프 데이터베이스에서 데이터를 가져오기 위해 표준화된 그래프 순회(traverse) 언어입니다 (RDBMS에서 SQL과 같은 방법).
+[OrientDB](https://github.com/orientechnologies/orientdb)와 같은 [그래프(Graph) 데이터베이스](https://en.wikipedia.org/wiki/Graph_database)는 노드(node), 엣지(edge) 그리고 속성(property)으로 구성된 그래프 구조 자료를 저장합니다. 디자인적으로 그래프 데이터베이스는 복잡하고 계층적 자료 구조를 관계형 데이터베이스보다 더 효율적인 방식으로 단순하고 빠르게 가져옵니다. [Gremlin](http://tinkerpop.apache.org/gremlin.html)은 그래프 데이터베이스에서 데이터를 가져오기 위해 표준화된 그래프 순회(traverse) 언어입니다 (RDBMS에서 SQL과 같은 방식).
 
-이 과정에서는 Bluemix 컨테이너 서비스에 OrientDB를 배포하는 방법을 보여주며 이를 여러분 팀의 개발이나 테스트 목적으로 활용할 수 있습니다.
+이 과정에서는 Bluemix 컨테이너 서비스에 OrientDB를 배포하는 방법을 보여주어 이를 개발이나 테스트 목적으로 활용할 수 있도록 합니다.
 
-[IBM Bluemix 컨테이너 서비스](https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov)는 [Docker](https://docs.docker.com/get-started/)와 [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)가 조합된 형태로 쿠버네티스 API를 사용하여 독립 컴퓨트 호스트로 구성된 클러스터 전반에 걸쳐 컨테이너화된 애플리케이션의 자동화된 배포, 운영, 확장 및 모니터링이 가능한 강력한 도구를 제공합니다.
+[IBM Bluemix 컨테이너 서비스](https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov)는 [도커(Docker)](https://docs.docker.com/get-started/)와 [쿠버네티스(Kubernetes)](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)가 조합된 형태로서 쿠버네티스 API를 사용하여 독립 컴퓨트 호스트로 구성된 클러스터에서 컨테이너화된 애플리케이션의 자동화된 배포, 운영, 확장 및 모니터링이 가능한 강력한 도구를 제공합니다.
 
 이 과정은 다음과 같은 단계를 제공합니다:
 * Bluemix 쿠버네티스에 OrientDB 컨테이너 배포
